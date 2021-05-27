@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <meta charset="UTF-8">
+        <!-- favicon -->
+        <!-- <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
+        <!-- <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-32x32.png">
+        <!-- bootstrap css cdn -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <!-- css stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- font styles cdn -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="shortcut icon" href="{{url_for('static', filename = 'nav-logo.png' )}}">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link href="{{url_for('static', filename = 'bootstrap-4.0.0-dist/css/bootstrap.css')}}" rel="stylesheet">
+<style>
+	body {
+  background:url(https://mecom.azureedge.net/uploads/2018/05/07010601/29658-01.jpg) no-repeat !important;
+  padding-top:100px;
+  background-size:cover;
+
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+
+h5{
+	color: black;
+}
+
+
+</style>
+
+</head>
+<body>
+        <!-- bootstrap navbar -->
+        <!-- <nav class="navbar sticky-top navbar-expand-lg navbar-dark pull-right"> -->
+
+<!-- <nav class="navbar navbar-expand-sm bg-secondary navbar-dark justify-content-end fixed-top"> -->
+	
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar justify-content-end">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/"><img src="{{url_for('static', filename = 'nav-logo.png' )}}" alt="" width="25" height="25" border="5" class="d-inline-block align-text-top">&nbsp;Inventory Managment System</a>
+    	</div>
+    	<ul class="navbar-nav">
+    		<!-- <li class="nav-item"><a href="/" class="nav-link text-white"><i class="fas fa-home">&nbsp;</i>Home</a></li> -->
+    		<li class="nav-item"><a href="/aboutus" class="nav-link text-white" class="here"><i class="fas fa-info">&nbsp;</i>About Us</a></li>
+    		<li class="nav-item"><a href="/login" class="nav-link text-white" class="here"><i class="fas fa-sign-in-alt">&nbsp;</i>Sign In</a></li>
+    		<li class="nav-item"><a href="/register" class="nav-link text-white" class="here"><i class="fas fa-user">&nbsp;</i>Sign Up</a></li>
+    	</ul>
+    </div>
+</nav>
+        <!-- what we focus on -->
+        <section class="our-focus">
+            <div class="container">
+              <h2 class="text-center mt-3 text-white" style="font-weight: bold; font-size: 50px;">Manage your Stocks in the most simplest way!</h2><br>
+              <div class="row ml-3 mt-3">
+                <div class="col-lg-3 ml-5" id="focus-first">
+                  <div class="card" style="width: 20rem;">
+                    <!-- <img src="assets/img/home kids.jpg" class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-weight: bolder;">Mission</h5><hr>
+                      <p class="card-text" style="color: black; font-weight: bold;">Our mission is to build the
+number one Supply Chain
+Management Ecosystem, that
+provides users with the simplest way to manage their stocks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 ml-5" id="focus-second">
+                  <div class="card" style="width: 20rem;">
+                    <!-- <img src="assets/img/friendship day.JPG" class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-weight: bolder;">Vission</h5><hr>
+                      <p class="card-text" style="color: black; font-weight: bold;">Our Vision is to deliver a product that is both beneficial in terms of
+efficiency in regional
+procurement and inventory
+management for all purposes.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 ml-5" id="focus-third">
+                  <div class="card" style="width: 20rem;">
+                    <!-- <img src="assets/img/health camp.jpg" class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-weight: bolder;">Objective</h5><hr>
+                      <p class="card-text" style="color: black; font-weight: bold;">Our main Objective is to provide our end-user with the Information that is essential for business in the best possible way making it easy to use.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+       
+            
+                
+              </div>
+            </div>
+   
+       
+
+          </body>
+</html>
